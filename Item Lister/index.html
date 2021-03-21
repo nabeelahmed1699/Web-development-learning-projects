@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items-Lists</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<body>
+    <header>
+        <h1>Item Lister</h1>
+        <div>
+            <input type="text" name="filter" id="filter" placeholder="filter">
+        </div>
+    </header>
+    <main>
+        <form action="get" id="form">
+            <h1>Add items</h1>
+            <div>
+                <input type="text" name="item" id="item-text" placeholder="type here">
+                <button id="add-btn" type="submit" class="btn"> Add</button>
+            </div>
+            <div>
+                <h2>Items</h2>
+                <ul id="items-list">
+                    <li class="items">
+                        <h4 class="float-left">item1</h4>
+                        <a class="delete btn"> x </a>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </main>
+    <script src="./script.js "></script>
+</body>
+
+</html>
