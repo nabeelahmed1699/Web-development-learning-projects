@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #850D0D, #E03333);
+    color: white;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: #E03333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    color: white;
+    background: #E03333;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-list {
+    min-width: 25%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.3rem;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: all 0.6s ease;
+}
+
+.check-btn,
+.delete-btn {
+    background: #E03333;
+    color: white;
+    border: none;
+    padding: 1.2rem;
+    cursor: pointer;
+}
+
+.check-btn {
+    background: rgb(90, 226, 90);
+}
+
+.todo li {
+    width: 90%;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.fall {
+    transform: translateY(3rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select {
+    color: #E03333;
+    width: 10rem;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+.select::after {
+    content: "\25BC";
+    position: absolute;
+    background: #E03333;
+    top: 0px;
+    right: 0px;
+    padding: 0.7rem;
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+
+.select:hover::after {
+    background: white;
+    color: #E03333;
+}
