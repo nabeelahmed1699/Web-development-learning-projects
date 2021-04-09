@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- extra css file -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Bootstrap first website</title>
+</head>
+
+<body>
+    <!-- navbar start form here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#">nabeel ahmed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#about-us">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#services">All services</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#gallery">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#contact-us">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end here -->
+
+
+    <!-- cerousal start here -->
+    <header id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/1.jpg" class="d-block w-100" alt="img-1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/2.jpg" class="d-block w-100" alt="img-2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/3.jpg" class="d-block w-100" alt="img-3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+        </div>
+    </header>
+    <!-- cerousel end here -->
+
+
+    <!-- about us section start here -->
+    <section class="main-heading my-5 " id="about-us">
+        <div class="text-center ">
+            <h1 class="text-capitalize display-4 "> about us </h1>
+            <hr class="w-25 mx-auto ">
+        </div>
+        <div class="container ">
+            <div class="row m-5 ">
+                <div class="col-lg-6 col-md-6 col-12 col-xl-6 ">
+                    <figure>
+                        <img src="./images/about-img.jpg " alt="Tiger Image " class="img-fluid about-img ">
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 col-xl-6 d-flex justify-content-center align-items-start flex-column ">
+                    <h1 class="display-6 ">My journey</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt maxime totam accusamus fugiat vero harum laboriosam commodi id beatae atque aperiam qui quibusdam, incidunt eaque molestiae! Quam, doloribus odio.</p>
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="right" title="Who am I...">
+                        Check More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section end here -->
+
+    <!-- Services section start here -->
+    <section class="main-heading my-5 bg-light py-5" id="services">
+        <div class="text-center ">
+            <h1 class="text-capitalize display-4 "> Services </h1>
+            <hr class="w-25 mx-auto ">
+        </div>
+        <div class="container services">
+            <div class="row my-5">
+                <div class="col-md-4 col-10 mx-auto col-lg-4 ">
+                    <div class="card mb-3 " style="max-width: 540px; ">
+                        <div class="row">
+                            <div class="col-md-4 ">
+                                <img src="./images/card-1.jpg" " alt=" card-img-1 " class=" img-fluid ">
+                        </div>
+                        <div class=" col-md-8 ">
+                            <div class=" card-body bg-light ">
+                                <h5 class=" card-title ">Card title</h5>
+                                <p class=" card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class=" card-text "><small class=" text-muted ">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto col-lg-4 ">
+                    <div class="card mb-3 " style="max-width: 540px; ">
+                        <div class="row ">
+                            <div class="col-md-4 img ">
+                                <img src="./images/card-2.jpg " alt=" card-img-1 " class=" img-fluid ">
+                            </div>
+                            <div class=" col-md-8 ">
+                                <div class=" card-body bg-light ">
+                                    <h5 class=" card-title ">Card title</h5>
+                                    <p class=" card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class=" card-text "><small class=" text-muted ">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto col-lg-4 ">
+                    <div class="card mb-3 " style="max-width: 540px; ">
+                        <div class="row ">
+                            <div class="col-md-4 ">
+                                <img src="./images/card-1.jpg " " alt=" card-img-1 " class=" img-fluid ">
+                            </div>
+                            <div class=" col-md-8 ">
+                                <div class=" card-body bg-light ">
+                                    <h5 class=" card-title ">Card title</h5>
+                                    <p class=" card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class=" card-text "><small class=" text-muted ">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 text-center my-5">
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Who am I...">
+                        More Services
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section ends here -->
+
+    <!-- Gallery section starts here -->
+    <section class="main-heading my-5 py-5" id="gallery">
+        <div class="text-center mb-5">
+            <h1 class="text-capitalize display-4 "> gallery </h1>
+            <hr class="w-25 mx-auto ">
+        </div>
+
+        <div class="container">
+            <div class="row gy-2">
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-md-4 col-10 col-lg-4 mx-auto">
+                    <figure>
+                        <img src="./images/about-img.jpg" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery section ends here -->
+
+    <!-- social media section start here -->
+    <section class="main-heading mt-5 bg-dark text-light" id="social-media">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-12 text-center py-5">
+                    <h1 class="display-5">My Social media presence</h1>
+                    <hr class="w-25 mx-auto ">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, excepturi?</p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://github.com/nabeelahmed1699" target="nabeel" class="me-4 link-secondary"><img src="./images/github.svg" alt="Github icon" class="card-img">
+                            <p>Github</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nabeelahmed1699/" target="nabeel" class="me-4 link-secondary"><img src="./images/linkedin.svg" alt="LinkedIn icon" class="card-img">
+                            <p>LinkedIn</p>
+                        </a>
+                        <a href="https://www.instagram.com/nabeel_mufti/" target="nabeel" class="me-4 link-secondary"><img src="./images/instagram.svg" alt="Intagram icon" class="card-img">
+                            <p>Intagram</p>
+                        </a>
+                        <a href="https://twitter.com/nabeel_mufti" target="nabeel" class="me-4 link-secondary"><img src="./images/twitter.svg" alt="Twitter icon" class="card-img">
+                            <p>Twitter</p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- social media ends here -->
+
+
+    <!-- contact us section start here-->
+    <section class="main-heading bg-light py-5" id="contact-us">
+        <div class="text-center ">
+            <h1 class="text-capitalize display-4 "> Contact Us </h1>
+            <hr class="w-25 mx-auto ">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-10 col-md-8 mx-auto">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="Name" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Your Message:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-outline-dark">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us section ends here -->
+
+
+
+
+    <!-- footer section start here -->
+    <footer class="bg-dark text-white text-end ">
+        <p class="mb-0 fs-6 me-xl-4">&#169;copyright @nabeelAhmed</p>
+    </footer>
+    <!-- footer section ends here -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous "></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js " integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js " integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc " crossorigin="anonymous "></script>
+    -->
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+            // Scroll to specific values
+            // scrollTo is the same
+        window.scroll({
+            top: 2500,
+            left: 0,
+            behavior: 'smooth'
+        });
+    </script>
+</body>
+
+</html>
