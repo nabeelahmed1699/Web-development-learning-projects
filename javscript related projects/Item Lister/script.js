@@ -13,7 +13,7 @@ function addItem(event) {
     // prevent from submitting
     event.preventDefault();
     // getting the input value 
-    var inputText = document.getElementById('item-text').value;
+    const inputElement = document.getElementById('item-text');
     //creating the element delete button
     var button = document.createElement('a');
     //giving classes to the delete button
@@ -25,11 +25,14 @@ function addItem(event) {
     // giving class to the li element
     li.className = `items`;
     // append the text in the item
-    li.innerText = inputText;
+    li.innerText = inputElement.value;
     // appending delete button in the li 
     li.appendChild(button)
         // appending the created element in the list
     item_list.appendChild(li);
+    //clearing the search box
+    inputElement.value = '';
+
 }
 
 function removeItem(event) {
