@@ -2,6 +2,9 @@ var addbtn = document.getElementById('add-btn');
 var form = document.getElementById('form');
 var item_list = document.getElementById('items-list');
 var searchBox = document.getElementById(`filter`);
+
+
+
 form.addEventListener('submit', addItem);
 item_list.addEventListener('click', removeItem);
 searchBox.addEventListener('keyup', filterItems);
